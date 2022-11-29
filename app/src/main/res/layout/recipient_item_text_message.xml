@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end"
+    android:layout_marginTop="@dimen/_4sdp"
+    android:layout_marginEnd="@dimen/_8sdp"
+    android:layout_marginStart="@dimen/_4sdp"
+    android:layout_marginBottom="@dimen/_8sdp"
+    android:background="@color/background_activity">
+
+
+
+    <FrameLayout
+        android:id="@+id/message_root"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:padding="@dimen/_4sdp">
+
+        <TextView
+            android:id="@+id/text_view_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hi! Mohamed, how ara u"
+            android:paddingTop="@dimen/_4sdp"
+            android:paddingStart="@dimen/_8sdp"
+            android:paddingBottom="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_8sdp"
+            android:textSize="@dimen/_16ssp"
+            android:background="@drawable/background_message_2"
+            android:textColor="@color/color_message_2"
+            android:layout_gravity="end"
+            android:maxWidth="@dimen/_256sdp"/>
+        <TextView
+            android:id="@+id/text_view_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="12:12"
+            android:paddingStart="@dimen/_4sdp"
+            android:paddingEnd="@dimen/_4sdp"
+            android:layout_marginTop="@dimen/_33sdp"
+            android:layout_gravity="start|bottom"
+            android:textSize="@dimen/_10ssp"/>
+
+
+    </FrameLayout>
+
+</FrameLayout>
